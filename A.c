@@ -2,17 +2,14 @@
 #include<stdlib.h>
 int main() {
     int choice,price=0,item;
-    int numberofplates[]={2,2,0};
+    int numberofplates[]={10,30,50};
     do
     {
         printf("\n------menu------\n");
             printf("1.manchuria \n2.noodles\n3.idly4.default"  );
     printf("select choice");
     scanf("%d",&choice);
-/*int numberofmanchuria=numberofplates[0];
-int numberofnoodles=numberofplates[1];
 
-int numberofidly=numberofplates[2];*/
 
     switch(choice)
     {
